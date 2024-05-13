@@ -6,6 +6,11 @@
 	--color-azul: #AECAE0;
 }
 
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
@@ -22,6 +27,10 @@ header {
 	color: #000000;
 }
 
+.buscador{
+	color: #000;
+	border: none;
+}
 
 .nav-link {
     font-size: 20px; 
@@ -57,7 +66,6 @@ header {
 	padding: 4%;
 }
 
-
 #hero h1{
 	
 	font-size: 60px;
@@ -68,12 +76,9 @@ header {
 
 
 #hero h3{
-	
 	font-size: 40px;
 	color: #FFFFFF;
 	font-weight: 600;
-	
-	
 }
 
 #hero p{
@@ -84,7 +89,6 @@ header {
 
 
 #ofertas{
-	
 	background-color: #F2F7F8;
 	padding-top: 40px;
 	padding-bottom: 0px;
@@ -93,18 +97,15 @@ header {
 
 
 #ofertas h5{
-	
 	padding-top: 80px;
 	font-size: 20px;
 }
 
 #ofertas h3{
-	
 	font-size: 50px;
 }
 
 #ofertas p{
-	
 	font-size: 24px;
 	padding-top: 20px;
 }
@@ -124,7 +125,6 @@ header {
 .btn-base:hover{
 	background-color: #FFFFFF; 
     color: #000000;
-	
 }
 
 .btn-base2 {
@@ -145,14 +145,12 @@ header {
 
 
 #categorias{
-	
 	background-color: #F2F7F8;
 	padding-top: 130px;
 	padding-bottom: 120px;
 }
 
 #categorias h2{
-	
 	font-weight: 600;
 	font-size: 50px;
 	text-align: center;
@@ -168,7 +166,6 @@ header {
     margin: 0 auto; 
     border-radius: 50%; 
     border: 5px solid #000;
-	
 }
 
 
@@ -198,14 +195,11 @@ header {
 
 
 #categorias h5{
-	
 	font-weight: 500;
 	font-size: 32px;
 	text-align: center;
 	padding-bottom: 100px;
 	padding-top: 20px;
-	
-	
 }
 
 #categorias  .img-container {
@@ -275,26 +269,88 @@ header {
     border: 5px solid #000;
 }
 
+#populares{
+	
+	background-color: #F2F7F8;
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+#populares h2{
+	
+	font-weight: 600;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 50px;	
+}
+
+#populares p{
+	font-weight: 500;
+	font-size: 32px;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 20px;	
+}
+
+
+
+#populares h4{
+	font-weight: 500;
+	font-size: 48px;
+	padding-top: 50%;
+}
+
+
+.img-fluid4 {
+   display: block; 
+    margin: 0 auto;  
+    border: 5px solid #000;
+}
+
+
+
+#populares h5{
+	
+	font-weight: 500;
+	font-size: 32px;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	
+	
+}
+
+#populares  .img-container {
+    position: relative;
+    overflow: hidden;
+	padding-bottom: 3px;
+}
+
+#populares  .img-container img {
+    width: 100%;
+    height: auto;
+}
+
 #populares .img-container h5 {
     position: absolute;
-    bottom: -70px;
+    bottom: -72px;
     left: 0;
     width: 100%;
     text-align: center;
     margin: 0;
-    z-index: 1;
-    color: #fff;
-    font-weight: 600;
-    font-size: 24px;
+    z-index: 1; 
+    color: #fff; 
+	font-weight: 600;
+	font-size: 24px;
 }
 
 #populares .img-container h5::before {
-    content: ""; 
+   content: ""; 
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-color: var(--color-rosado); 
     z-index: -1; 
 }
