@@ -157,10 +157,6 @@ header {
 	padding-bottom: 50px;	
 }
 
-.fondo-rosa{
-	background-color: var(--color-rosado);
-}
-
 .img-fluid1 {
    display: block; 
     margin: 0 auto; 
@@ -601,9 +597,66 @@ footer a{
 	
 	#categorias h4 {
 		font-weight: 500;
-		font-size: 36px;
+		font-size: 32px;
 		padding-top: 2%;
 		text-align: center;
+	}
+	
+	#categorias .img-container h5 {
+		position: absolute;
+		bottom: -72px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		z-index: 1;
+		color: #fff;
+		font-weight: 600;
+		font-size: 14px;
+	}
+	
+	#categorias h4 {
+        font-weight: 500;
+        font-size: 28px;
+        padding-top: 2%;
+        text-align: center;
+    }
+
+	.btn-base3 {
+		background-color: transparent;
+		color: #000000;
+		padding: 8px 45px;
+		border: 2px solid #000000;
+		border-radius: 0px;
+		font-size: 18px;
+		font-weight: 500;
+		text-decoration: none;
+	}
+	
+	.container1 {
+		padding: 27px;
+		overflow: hidden;
+		padding-top: 20px;
+	}
+	
+	h2 {
+		font-weight: 600;
+		font-size: 40px;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	
+	#materiales h4 {
+		font-size: 22px;
+		font-weight: 500;
+	}
+	
+	#materiales p{
+		font-size: 18px;
+	}
+	
+	#materiales btn-base3{
+		display: block;
 	}
 }
 
