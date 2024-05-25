@@ -46,6 +46,22 @@ header {
 	align-content: center;
 }
 
+.nav-item .nav-link i:hover {
+    font-size: 1.5em; 
+	padding-top: 10px;
+	align-content: center;
+	color: var(--color-rosado);
+}
+
+.btn-outline-success{
+	border-color: var(--color-rosado);
+}
+
+.btn-outline-success:hover{
+	border-color: var(--color-rosado);
+	background-color: var(--color-rosado);
+}
+
 #hero .container{
 	background-image: url(../img/background-hero.png);
 	background-position: top center;
@@ -94,8 +110,6 @@ header {
 	padding-bottom: 0px;
 }
 
-
-
 #ofertas h5{
 	padding-top: 80px;
 	font-size: 20px;
@@ -109,7 +123,6 @@ header {
 	font-size: 24px;
 	padding-top: 20px;
 }
-
 
 .btn-base{
 	background-color: transparent; 
